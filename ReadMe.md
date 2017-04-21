@@ -10,12 +10,17 @@ to HTML requests.
 SYSTEM COMPONENTS:
 
 Raspberry Pi 3
+
 16Gb San Disk MicroSD
+
 ASUS RT-AC66U router
+
 Motorola SURFboard SBG6782-AC modem & router (included with Time Warner Cable Internet Service)
+
 Spectrum (Time Warner Cable) Residential Internet Service
+
 Domain name from GoDaddy.com
-Markup :  - - - -
+
 
 RASPBERRY PI CONFIGURATION:
 
