@@ -15,7 +15,7 @@ ASUS RT-AC66U router
 Motorola SURFboard SBG6782-AC modem & router (included with Time Warner Cable Internet Service)
 Spectrum (Time Warner Cable) Residential Internet Service
 Domain name from GoDaddy.com
-
+Markup :  - - - -
 
 RASPBERRY PI CONFIGURATION:
 
