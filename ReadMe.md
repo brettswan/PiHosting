@@ -18,6 +18,7 @@ Domain name from GoDaddy.com
 
 
 RASPBERRY PI CONFIGURATION:
+
 Fresh installation of Raspbian Jessie operating system stored on a 16gb MicroSD card
 
 In terminal, enter command "sudo apt-get install apache2 php5 libapache2-mod-php5"
@@ -29,6 +30,7 @@ To host a single site, move your index.html file and other supporting files to /
 Now enter command "ifconfig" and write down your Raspberry Pi's IP Address
 
 ROUTER CONFIGURATION:
+
 I purchased my router several months ago and use the TWC supplied modem/router only as a modem and use the ASUS
 RT-AC66U as the main access point for my home network. First, login to the admin page for your router by entering
 192.168.1.1 in your preferred web browser. Once on the router's start page, locate the WAN tab under the "Advanced Settings" section in the lower left part of the screen. Set "Enable WAN" to "Yes". From there click on the "Virtual Server / Port Forwarding" tab. First enable port forwarding. Then add an entry in the port forwarding list by entering the service name of your choosing, leave the "Source Target" field empty, enter 80 in the "Port Range" field, enter your Raspberry Pi's IP address in the "Local IP" field, enter 80 for the "Local Port" field, then choose "BOTH" for the Protocol field. Then press the plus icon at the end of the row, followed by "APPLY" to save your new settings.
