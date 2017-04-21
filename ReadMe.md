@@ -22,6 +22,7 @@ Spectrum (Time Warner Cable) Residential Internet Service
 Domain name from GoDaddy.com
 
 
+
 RASPBERRY PI CONFIGURATION:
 
 Fresh installation of Raspbian Jessie operating system stored on a 16gb MicroSD card
@@ -34,6 +35,7 @@ To host a single site, move your index.html file and other supporting files to /
 
 Now enter command "ifconfig" and write down your Raspberry Pi's IP Address
 
+
 ROUTER CONFIGURATION:
 
 I purchased my router several months ago and use the TWC supplied modem/router only as a modem and use the ASUS
@@ -43,6 +45,7 @@ RT-AC66U as the main access point for my home network. First, login to the admin
 Now return to the "Network Map" page and write down the listed WAN IP. Now enter "www.whatsmyip.org" . If the IP address listed at the top of the screen does not match the WAN IP shown in your router, enter 192.168.0.1 to access your modem's user interface. In the firewall settings, turn off "Block WAN connections". This was the default configuration from Spectrum.
 
 To test your system, type your WAN IP address into your preferred web browser. It should display your website's "index.html" file.
+
 
 DOMAIN CONFIGURATION (ASSUMING YOUR DOMAIN IS FROM GODADDY):
 Sign in on GoDaddy and click on your name (top right) to drop down the menu. On the left side under "Quick Links", click on "Manage My Domains". For the domain you would like to use, press the gear icon and then "Manage DNS". In the "Records" section, click on the pencil icon for the row with type "A" and name "@" to edit the "Value" field. Replace the current value with your network's WAN IP address. Your site should be reachable from your domain name within the next 24 hours.
