@@ -48,4 +48,5 @@ To test your system, type your WAN IP address into your preferred web browser. I
 
 
 DOMAIN CONFIGURATION (ASSUMING YOUR DOMAIN IS FROM GODADDY):
+
 Sign in on GoDaddy and click on your name (top right) to drop down the menu. On the left side under "Quick Links", click on "Manage My Domains". For the domain you would like to use, press the gear icon and then "Manage DNS". In the "Records" section, click on the pencil icon for the row with type "A" and name "@" to edit the "Value" field. Replace the current value with your network's WAN IP address. Your site should be reachable from your domain name within the next 24 hours.
